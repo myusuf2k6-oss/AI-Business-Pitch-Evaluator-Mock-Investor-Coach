@@ -1,0 +1,18 @@
+[MASTER]
+# Files or directories to exclude from analysis
+ignore=tests
+
+[MESSAGES CONTROL]
+# Disable rules that are too verbose or not applicable to Streamlit apps
+# C0114: Missing module docstring
+# C0115: Missing class docstring
+# C0116: Missing function docstring
+# R0903: Too few public methods
+# R0913: Too many arguments
+# R0914: Too many local variables
+# C0103: Invalid name (disabled due to Streamlit's style conventions for global variables/widgets)
+disable=C0114,C0115,C0116,R0903,R0913,R0914,C0103
+
+[FORMAT]
+# Maximum number of characters on a single line.
+max-line-length=120
