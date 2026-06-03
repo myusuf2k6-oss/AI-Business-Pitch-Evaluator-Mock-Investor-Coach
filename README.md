@@ -1,0 +1,2 @@
+# AI-Business-Pitch-Evaluator-Mock-Investor-Coach
+AI Business Pitch Evaluator &amp; Mock Investor Coach is a containerized Streamlit app that analyzes startup pitch decks using NLP, scores investor alignment, identifies strengths and gaps, and provides actionable recommendations. It also includes a mock VC interview coach with personalized questions, answer evaluation, and pitch practice summaries.
